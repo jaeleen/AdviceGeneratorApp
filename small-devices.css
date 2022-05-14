@@ -6,13 +6,13 @@ section{
     margin: auto;
     position: relative;
     margin-top: 15%;
-    width: 55%;
+    width: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px #03142417;
     background: hsl(217, 19%, 24%);
     color: hsl(193, 38%, 86%);
     text-align: center;
-    height: 775px;
+    height: 375px;
 }
 
 .newadvise h3{
@@ -38,19 +38,23 @@ section{
     padding: 20px;
     padding-top: 0;
 }
+svg{
+    width: 295;
+    height: 16;
+}
 
 .button {
     background-color: hsl(150, 100%, 66%);
     border: none;
     color: hsl(218, 23%, 16%);
-    padding: 10px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     font-size: 16px;
+    padding: 10px;
     border-radius: 50%;
     position: absolute;
-    top: 94%;
+    top: 95%;
     transition: all 0.2s ease-in-out;
 }
 .button:hover{
